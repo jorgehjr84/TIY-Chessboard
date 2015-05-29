@@ -1,0 +1,20 @@
+{
+  "name": "TIY-Chessboard",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jorgehjr84/TIY-Chessboard",
+  "authors": [
+    "Jorge Hernandez <jorge_l_hernandez@yahoo.com>"
+  ],
+  "license": "CC0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chai": "~2.3.0",
+    "mocha": "~2.2.5"
+  }
+}
