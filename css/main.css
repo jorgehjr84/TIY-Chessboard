@@ -99,7 +99,7 @@ textarea {
      border: 1px solid;
      width: 80%; margin: 0 auto;
      min-width: 1in;
-     max-width: 3in;
+     max-width: 6in;
    }
 
    .chessboard {
@@ -169,7 +169,7 @@ textarea {
    .chessboard .square {
      background-color: lightgrey;
      display: block;
-     width: 10%; padding-bottom: 50%;
+     width: 12.5%; padding-bottom: 12.5%;
      outline: 1px solid black;
      float:left;
    }
@@ -195,8 +195,16 @@ textarea {
    .piece-white-rook {
      /* What goes here? */
    }
-
-
+/*
+.chessboard .rank-8
+.file-a::before{
+  content: '\265c';
+  font-size: 40pt;
+  position: absolute;
+  padding-left: .20ex;
+  text-align: center;
+  z-index: 2;
+}*/
 
 
 
