@@ -111,6 +111,10 @@ textarea {
      clear: both;
    }
 
+   .square{
+     width:100%;
+   }
+
    .chessboard .row::before,
    .chessboard .row::after {
      font-size: 500%;
