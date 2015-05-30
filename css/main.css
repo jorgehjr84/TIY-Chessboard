@@ -95,9 +95,116 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .container {
+     border: 1px solid;
+     width: 80%; margin: 0 auto;
+     min-width: 1in;
+     max-width: 6in;
+   }
+
+   .chessboard {
+   }
+   /* Row Styles */
+   .chessboard .row {
+     margin: 0; padding: 0;
+     position: relative;
+     clear: both;
+   }
+
+   .square{
+     width:100%;
+   }
+
+   .chessboard .row::before,
+   .chessboard .row::after {
+     font-size: 500%;
+     position: absolute;
+   }
+   .chessboard .row::before {
+     right: 100%;
+   }
+   .chessboard .row::after {
+     left: 100%;
+   }
+
+
+   /*Labeling for sides of chessboard*/
+   .chessboard .rank-8::before,
+   .chessboard .rank-8::after {
+     content: '8';
+   }
+   .chessboard .rank-7::before,
+   .chessboard .rank-7::after {
+     content: '7';
+   }
+   .chessboard .rank-6::before,
+   .chessboard .rank-6::after {
+     content: '6';
+   }
+   .chessboard .rank-5::before,
+   .chessboard .rank-5::after {
+     content: '5';
+   }
+   .chessboard .rank-4::before,
+   .chessboard .rank-4::after {
+     content: '4';
+   }
+   .chessboard .rank-3::before,
+   .chessboard .rank-3::after {
+     content: '3';
+   }
+   .chessboard .rank-2::before,
+   .chessboard .rank-2::after {
+     content: '2';
+   }
+   .chessboard .rank-1::before,
+   .chessboard .rank-1::after {
+     content: '1';
+   }
+   /*End of labeling for sides of chessboard*/
 
 
 
+
+   .chessboard .square {
+     background-color: lightgrey;
+     display: block;
+     width: 12.5%; padding-bottom: 12.5%;
+     outline: 1px solid black;
+     float:left;
+   }
+   .chessboard .row:nth-child(even) .square:nth-child(even) {
+     background-color: lightgrey;
+   }
+   .chessboard .row:nth-child(even) .square:nth-child(odd) {
+     background-color: cornflowerblue;
+   }
+   .chessboard .square:nth-child(even) {
+     background-color: cornflowerblue;
+   }
+
+   .piece {
+
+   }
+   .white {
+
+   }
+   .rook {
+
+   }
+   .piece-white-rook {
+     /* What goes here? */
+   }
+/*
+.chessboard .rank-8
+.file-a::before{
+  content: '\265c';
+  font-size: 40pt;
+  position: absolute;
+  padding-left: .20ex;
+  text-align: center;
+  z-index: 2;
+}*/
 
 
 
