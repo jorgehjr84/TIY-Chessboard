@@ -121,9 +121,12 @@ textarea {
 
    .chessboard .row::before {
      right: 100%;
+     margin-top: 2%;
    }
    .chessboard .row::after {
      left: 100%;
+     margin-top: 2%;
+
    }
 
 
@@ -131,34 +134,49 @@ textarea {
    .chessboard .rank-8::before,
    .chessboard .rank-8::after {
      content: '8';
+     font-size: 225%;
    }
    .chessboard .rank-7::before,
    .chessboard .rank-7::after {
      content: '7';
+     font-size: 225%;
+
    }
    .chessboard .rank-6::before,
    .chessboard .rank-6::after {
      content: '6';
+     font-size: 225%;
+
    }
    .chessboard .rank-5::before,
    .chessboard .rank-5::after {
      content: '5';
+     font-size: 225%;
+
    }
    .chessboard .rank-4::before,
    .chessboard .rank-4::after {
      content: '4';
+     font-size: 225%;
+
    }
    .chessboard .rank-3::before,
    .chessboard .rank-3::after {
      content: '3';
+     font-size: 225%;
+
    }
    .chessboard .rank-2::before,
    .chessboard .rank-2::after {
      content: '2';
+     font-size: 225%;
+
    }
    .chessboard .rank-1::before,
    .chessboard .rank-1::after {
      content: '1';
+     font-size: 225%;
+
    }
    /*End of labeling for sides of chessboard*/
 
@@ -182,18 +200,6 @@ textarea {
      background-color: cornflowerblue;
    }
 
-   .piece {
-
-   }
-   .white {
-
-   }
-   .rook {
-
-   }
-   .piece-white-rook {
-     /* What goes here? */
-   }
 
    .topboard p{
      display: inline-block;
@@ -214,6 +220,18 @@ textarea {
      margin: 0;
      padding: 0;
    }
+
+
+   .whiterook::before{
+     content: '\2656';
+     width: 12.5%;
+    position: absolute;
+    margin: 0; padding: 0;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 1%;
+  }
+
 
 
 
