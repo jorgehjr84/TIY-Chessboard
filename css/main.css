@@ -184,20 +184,20 @@ textarea {
 
 
    .chessboard .square {
-     background-color: lightgrey;
+     background-color: cornflowerblue;
      display: block;
      width: 12.5%; padding-bottom: 12.5%;
      outline: 1px solid black;
      float:left;
    }
    .chessboard .row:nth-child(even) .square:nth-child(even) {
-     background-color: lightgrey;
+     background-color: cornflowerblue;
    }
    .chessboard .row:nth-child(even) .square:nth-child(odd) {
-     background-color: cornflowerblue;
+     background-color: lightgrey;
    }
    .chessboard .square:nth-child(even) {
-     background-color: cornflowerblue;
+     background-color: lightgrey;
    }
 
 
@@ -222,6 +222,8 @@ textarea {
    }
 
 
+/*Beginning of white pieces*/
+
    .whiterook::before{
      content: '\2656';
      width: 12.5%;
@@ -230,14 +232,147 @@ textarea {
     font-size: 250%;
     text-align: center;
     padding-top: 1%;
+    color: white;
   }
 
+  .whiteknight::before{
+    content: '\2658';
+    width: 12.5%;
+   position: absolute;
+   margin: 0; padding: 0;
+   font-size: 250%;
+   text-align: center;
+   padding-top: 1%;
+   color: white;
+ }
+
+ .whitebishop::before{
+   content: '\2657';
+   width: 12.5%;
+  position: absolute;
+  margin: 0; padding: 0;
+  font-size: 250%;
+  text-align: center;
+  padding-top: 1%;
+  color: white;
+ }
+
+ .whitequeen::before{
+   content: '\2655';
+   width: 12.5%;
+  position: absolute;
+  margin: 0; padding: 0;
+  font-size: 250%;
+  text-align: center;
+  padding-top: 1%;
+  color: white;
+ }
+
+ .whiteking::before{
+   content: '\2654';
+   width: 12.5%;
+  position: absolute;
+  margin: 0; padding: 0;
+  font-size: 250%;
+  text-align: center;
+  padding-top: 1%;
+  color: white;
+ }
+
+ .whitepawn::before {
+   content: '\2659';
+   width: 12.5%;
+  position: absolute;
+  margin: 0; padding: 0;
+  font-size: 250%;
+  text-align: center;
+  padding-top: 1%;
+  color: white;
+ }
+
+
+/*End of white pieces*/
+
+
+/*Beginning of black pieces*/
+
+   .blackrook::before{
+     content: '\265c';
+     width: 12.5%;
+    position: absolute;
+    margin: 0; padding: 0;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 1%;
+  }
+
+  .blackknight::before{
+    content: '\265e';
+    width: 12.5%;
+   position: absolute;
+   margin: 0; padding: 0;
+   font-size: 250%;
+   text-align: center;
+   padding-top: 1%;
+ }
+
+ .blackbishop::before{
+   content: '\265d';
+   width: 12.5%;
+  position: absolute;
+  margin: 0; padding: 0;
+  font-size: 250%;
+  text-align: center;
+  padding-top: 1%;
+ }
+
+ .blackqueen::before{
+   content: '\265b';
+   width: 12.5%;
+  position: absolute;
+  margin: 0; padding: 0;
+  font-size: 250%;
+  text-align: center;
+  padding-top: 1%;
+ }
+
+ .blackking::before{
+   content: '\265a';
+   width: 12.5%;
+  position: absolute;
+  margin: 0; padding: 0;
+  font-size: 250%;
+  text-align: center;
+  padding-top: 1%;
+ }
+
+ .blackpawn::before {
+   content: '\265f';
+   width: 12.5%;
+  position: absolute;
+  margin: 0; padding: 0;
+  font-size: 250%;
+  text-align: center;
+  padding-top: 1%;
+ }
+
+
+/*End of black pieces*/
 
 
 
+.buttonsrow p{
+  display: inline-block;
+ width: 12.5%;
+  float: left;
+  text-align: center;
+  font-size: 150%;
+  margin: 0;
+  padding: 10%;
+  border: .1em solid darkgrey;
+  border-top: .25em solid darkgrey;
 
-
-
+}
 
 
 
