@@ -47,11 +47,11 @@
 
 (function(window){
 
+alert("hello");
 
-
-alert('Im working');
 
   window.chess = {
+
 
 };
 
