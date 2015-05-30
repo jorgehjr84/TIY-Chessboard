@@ -96,7 +96,6 @@ textarea {
    ========================================================================== */
 
    .container {
-     border: 1px solid;
      width: 80%; margin: 0 auto;
      min-width: 1in;
      max-width: 6in;
@@ -109,17 +108,17 @@ textarea {
      margin: 0; padding: 0;
      position: relative;
      clear: both;
-   }
+     border: 1px solid;
+}
 
-   .square{
-     width:100%;
-   }
 
    .chessboard .row::before,
    .chessboard .row::after {
      font-size: 500%;
      position: absolute;
+     text-align: center;
    }
+
    .chessboard .row::before {
      right: 100%;
    }
@@ -195,16 +194,26 @@ textarea {
    .piece-white-rook {
      /* What goes here? */
    }
-/*
-.chessboard .rank-8
-.file-a::before{
-  content: '\265c';
-  font-size: 40pt;
-  position: absolute;
-  padding-left: .20ex;
-  text-align: center;
-  z-index: 2;
-}*/
+
+   .topboard p{
+     display: inline-block;
+    width: 12.5%;
+     float: left;
+     text-align: center;
+     font-size: 200%;
+     margin: 0;
+     padding: 0;
+   }
+
+   .bottomboard p{
+     display: inline-block;
+    width: 12.5%;
+     float: left;
+     text-align: center;
+     font-size: 200%;
+     margin: 0;
+     padding: 0;
+   }
 
 
 
