@@ -314,28 +314,21 @@ textarea {
 /*End of black pieces*/
 
 .buttonsrow {
-  display: inline-block;
-  float: left;
-  text-align: center;
-  width: 100%;
-
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 100%;
 }
-
-.buttonsrow p{
-  display: inline-block;
-  float: left;
-  text-align: center;
-  width: 25%;
-  border: .1em solid black;
-  border-top: .25em solid black;
-
-
-  background-color: lightgrey;
-  margin-left: 5%;
-
+.buttonsrow button {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 25%;
+    border: .1em solid black;
+    border-top: .25em solid black;
+    background-color: lightgrey;
+    margin-left: 5%;
 }
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -397,7 +390,7 @@ textarea {
 .clearfix:before, .clearfix:after {
     content: " ";
     /* 1 */
-
+    
     display: table;
     /* 2 */
 }
@@ -428,7 +421,7 @@ textarea {
         color: #000 !important;
         /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-
+        
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -445,7 +438,7 @@ textarea {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
+    
     a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
@@ -457,7 +450,7 @@ textarea {
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
+    
     thead {
         display: table-header-group;
     }
