@@ -1,16 +1,15 @@
-var chessBoard = (function(window) {
+(function(window) {
 
+    var game = [ //list of 5-tuples representing fromRank, fromFile, toRank, toFile
+        {
+            fromRank: '.rank-2',
+            fromFile: '.file-d',
+            toRank: '.rank-4',
+            toFile: '.file-d',
+            piece: 'whitepawn',
+        }
 
-
-    var moves = function() {
-
-        move1: $('.rank-2 > .file-d').removeClass('whitepawn'),
-        $('.rank-4 > .file-d').addClass('whitepawn');
-
-        // move2:
-
-
-    };
+    ];
 
 
 
@@ -226,10 +225,8 @@ var chessBoard = (function(window) {
     //
     //
     //
-    window.moves = {
 
 
-    }
 
 
 })(window);
