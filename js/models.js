@@ -1,8 +1,21 @@
 var chessBoard = (function(window) {
-    //
-    //
-    //
-    //
+
+
+
+    var moves = function() {
+
+        move1: $('.rank-2 > .file-d').removeClass('whitepawn'),
+        $('.rank-4 > .file-d').addClass('whitepawn');
+
+        // move2:
+
+
+    };
+
+
+
+
+
     //
     //     //
     //     // function initBoard = [
@@ -213,4 +226,10 @@ var chessBoard = (function(window) {
     //
     //
     //
+    window.moves = {
+
+
+    }
+
+
 })(window);
